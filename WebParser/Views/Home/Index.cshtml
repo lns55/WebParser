@@ -1,0 +1,11 @@
+﻿@model List<WebParser.Context.Helsinki>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@foreach(var t in Model)
+{
+   <tr>
+       <td>@t.Degrees</td>
+   </tr>
+}
